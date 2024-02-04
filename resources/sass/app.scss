@@ -1,0 +1,15 @@
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import 'jquery-ui/dist/themes/base/jquery-ui.min';
+@import 'flatpickr/dist/flatpickr.css';
+@import '../sass/input-phone.scss'; 
+@import '../css/input-phone.css'; 
+
+.ui-menu{
+	max-height: 250px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+.dropdown-menu{
+	z-index: 1025;
+}
